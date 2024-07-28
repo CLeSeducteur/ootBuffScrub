@@ -204,7 +204,8 @@ void EnBuffDeku_Init(Actor* thisx, PlayState* play) {
 
 void EnBuffDeku_Destroy(Actor* thisx, PlayState* play) {
 	EnBuffDeku* this = (EnBuffDeku*)thisx;
-
+	
+	SkelAnime_Free(&this->skelAnime, play);
     Collider_DestroyJntSph(play, &this->colliderSpheres);
     Collider_DestroyCylinder(play, &this->colliderBody);
 
