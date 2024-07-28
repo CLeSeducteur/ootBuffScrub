@@ -12,7 +12,7 @@ Everything necessary to add the Buff Scrub to oot using decomp (https://github.c
 ## Setting Up
 You'll have to modify your files manually, copy and paste in the files from your repo, and you'll be fine (probably)..
 * **These files need to be modified :**
-  * in ``spec`` add the content from the file in this repo.
+  * in ``spec`` add the content from the file in this repo. Beware each segment has to be with its corresponding type (ovl & object)
   * in ``include/tables/actor_table.h`` add ``DEFINE_OBJECT(object_buffdeku, OBJECT_BUFFDEKU)``
   * in  ``include/tables/object_table.h`` add ``DEFINE_ACTOR(En_BuffDeku, ACTOR_EN_BUFFDEKU, ACTOROVL_ALLOC_NORMAL, "Buff Scrub")``
   * in  ``src/overlays/actors/ovl_En_Dekunuts/z_en_dekunuts.c`` replace it completely with the file from this repo or just add this: <https://github.com/CLeSeducteur/ootBuffScrub/blob/main/z_en_dekunuts.c#L186-L191>.
