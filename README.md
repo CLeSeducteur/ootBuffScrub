@@ -15,7 +15,7 @@ You'll have to modify your files manually, copy and paste in the files from your
   * in ``spec`` add the content from the file in this repo.
   * in ``include/tables/actor_table.h`` add ``DEFINE_OBJECT(object_buffdeku, OBJECT_BUFFDEKU)``
   * in  ``include/tables/object_table.h`` add ``DEFINE_ACTOR(En_BuffDeku, ACTOR_EN_BUFFDEKU, ACTOROVL_ALLOC_NORMAL, "Buff Scrub")``
-  * in  ``src/overlays/actors/ovl_En_Dekunuts/z_en_dekunuts.c`` replace it completely with the file from this repo.
+  * in  ``src/overlays/actors/ovl_En_Dekunuts/z_en_dekunuts.c`` replace it completely with the file from this repo or just add this: <https://github.com/CLeSeducteur/ootBuffScrub/blob/main/z_en_dekunuts.c#L186-L191>.
 
 * **Adding new stuff:**
   * in ``assets/objects/``, add the repertory ``object_buffdeku``
