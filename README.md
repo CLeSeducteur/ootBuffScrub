@@ -24,5 +24,7 @@ You'll have to modify your files manually, copy and paste in the files from your
 Then just ``make clean`` and it should normally work.
 
 There's room for improvement, maybe I'll update it later with new gimmicks.
+
 Please credit me when using it in your hacks, thank you. 
+
 * Made by LeSéducteur
