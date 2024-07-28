@@ -1,0 +1,1 @@
+extern AnimationHeader BuffDekuSkelTaunt2Anim;
