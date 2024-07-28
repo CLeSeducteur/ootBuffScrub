@@ -183,7 +183,7 @@ void EnBuffDeku_Init(Actor* thisx, PlayState* play) {
     this->actor.gravity = -1.0f;
     this->actor.colChkInfo.health = 1;
     this->onFire = false;
-    this->actor.naviEnemyId = NAVI_ENEMY_BIG_POE;
+    //this->actor.naviEnemyId = NAVI_ENEMY_MAD_SCRUB; //replace it with a custom one.
 
 	ActorShape_Init(&thisx->shape, 0.0f, ActorShadow_DrawCircle, 40.0f);
 
