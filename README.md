@@ -21,7 +21,9 @@ You'll have to modify your files manually, copy and paste in the files from your
   * in ``assets/objects/``, add the repertory ``object_buffdeku``
   * in ``src/overlays/actors/`` add the repertory  ``ovl_En_BuffDeku/``
 
-Then just ``make clean`` and it should normally work.
+Just ``make clean`` then ``make`` and it should normally work.
+
+Add it to your maps and have fun! 
 
 There's room for improvement, maybe I'll update it later with new gimmicks.
 
