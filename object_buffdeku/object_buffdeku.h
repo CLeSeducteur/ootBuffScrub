@@ -1,5 +1,4 @@
 #include "BuffDekuSkel.h"
-#include "Idle.h"
 #include "GetOutGround.h"
 #include "Punch.h"
 #include "WalkCycle.h"
