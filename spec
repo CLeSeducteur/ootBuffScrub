@@ -1,3 +1,5 @@
+! Important put the segments with the correspondings segments, the objects with the objects et the ovl with the ovl !
+
 beginseg
     name "object_buffdeku"
     compress
