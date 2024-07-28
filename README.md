@@ -5,7 +5,7 @@ Everything necessary to add the Buff Scrub to oot using decomp (https://github.c
 ## Showcase
 * **Video:** <https://youtu.be/vWf0wyf6uw0>
 * The Buff Scrub spawns from a regular Mad Scrub, when a specific param is set to 1 (0xXXX1).
-* The Buff Scrub when rentlessly try to murder Link when spawned.
+* The Buff Scrub will rentlessly try to murder Link when spawned.
 * The Buff Scrub is afraid of fire based attacks and can only be killed by these. (Fire Arrows, Lit Arrows, Fire Magic and Burning Deku Sticks)
 * He taunts you every time it hits you.
 
