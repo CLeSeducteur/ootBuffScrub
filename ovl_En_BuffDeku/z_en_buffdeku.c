@@ -381,7 +381,7 @@ void EnBuffDeku_Draw(Actor* thisx, PlayState* play) {
 
     }
 
-    CollisionCheck_DrawCollision(play, &play->colChkCtx);
+    //CollisionCheck_DrawCollision(play, &play->colChkCtx); //ONLY DEBUG
 
     CLOSE_DISPS(play->state.gfxCtx, "", 0);
 
